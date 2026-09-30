@@ -32,8 +32,11 @@ plugins/
 
 ## Adding a plugin
 
-1. `cp -r plugins/starter-kit plugins/<new-plugin>`
-2. Update `plugins/<new-plugin>/.claude-plugin/plugin.json`.
+`starter-kit` is the baseline plugin I install in every project so Claude behaves
+the same everywhere. Shared agents, skills and commands go there. For a separate plugin:
+
+1. Create `plugins/<new-plugin>/.claude-plugin/plugin.json`.
+2. Add its `commands/`, `skills/`, `agents/` folders as needed.
 3. Add an entry to `plugins` in `.claude-plugin/marketplace.json`.
 4. Validate: `claude plugin validate .`
 5. Refresh locally: `/plugin marketplace update pedro-ai-setup`
