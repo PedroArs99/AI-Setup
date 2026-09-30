@@ -1,0 +1,22 @@
+{
+  "name": "pedro-ai-setup",
+  "owner": {
+    "name": "Pedro Arenas",
+    "email": "pedroars99@icloud.com"
+  },
+  "metadata": {
+    "description": "Pedro's personal marketplace of Claude Code plugins: commands, skills, agents, hooks and MCP servers.",
+    "version": "0.1.0",
+    "pluginRoot": "./plugins"
+  },
+  "plugins": [
+    {
+      "name": "starter-kit",
+      "source": "./plugins/starter-kit",
+      "description": "Example plugin showing a slash command, a skill and a subagent. Copy it to start a new plugin.",
+      "version": "0.1.0",
+      "category": "productivity",
+      "keywords": ["example", "template"]
+    }
+  ]
+}
