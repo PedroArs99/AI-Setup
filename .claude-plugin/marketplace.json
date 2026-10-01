@@ -13,14 +13,16 @@
     {
       "name": "starter-kit",
       "source": "./plugins/starter-kit",
-      "description": "Baseline setup installed in every project so Claude behaves consistently: shared agents (code-explorer), skills and commands.",
+      "description": "Baseline setup installed in every project so Claude behaves consistently: shared agents (code-explorer, archify-documenter), skills and commands.",
       "version": "0.2.0",
       "category": "productivity",
       "keywords": [
         "baseline",
         "agents",
         "code-explorer",
-        "codebase-memory-mcp"
+        "codebase-memory-mcp",
+        "archify",
+        "documentation"
       ]
     }
   ]

@@ -22,8 +22,10 @@ For a separate plugin:
 2. Add its commands/skills/agents folders
 3. Add an entry to `.claude-plugin/marketplace.json`
 4. Run `claude plugin validate .` to verify
-5. Bump `version` in both files when releasing
+5. Never bump `version` (in `plugin.json` or `marketplace.json`) unless the user explicitly asks
 
 ## Guarded scripts
 
 - `plugins/starter-kit/scripts/install-codebase-memory-mcp.sh` installs an npm package globally and changes the user's Claude Code MCP config. Run it only after the user explicitly allows it in the current conversation. `.claude/settings.json` has an `ask` rule so every run needs approval.
+- `plugins/starter-kit/scripts/install-archify.sh` installs the Archify skill into `~/.claude/skills/` with the npm `skills` CLI (via npx). The same rule applies: run it only after the user explicitly allows it in the current conversation. It is also covered by an `ask` rule.
+- Install scripts install only through Node tooling (npm / npx packages). Never clone, download or build tools from source.
