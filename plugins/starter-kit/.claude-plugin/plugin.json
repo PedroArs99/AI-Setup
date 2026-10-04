@@ -1,7 +1,7 @@
 {
   "name": "starter-kit",
   "description": "Baseline setup installed in every project so Claude behaves consistently: shared agents (code-explorer, archify-documenter), GitHub Spec Kit setup, Impeccable design skill installer, skills and commands.",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "author": {
     "name": "Pedro Arenas"
   },
