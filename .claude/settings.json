@@ -3,7 +3,8 @@
     "ask": [
       "Bash(*install-codebase-memory-mcp*)",
       "Bash(*install-archify*)",
-      "Bash(*install-spec-kit*)"
+      "Bash(*install-spec-kit*)",
+      "Bash(*install-impeccable*)"
     ]
   }
 }
