@@ -2,7 +2,8 @@
   "permissions": {
     "ask": [
       "Bash(*install-codebase-memory-mcp*)",
-      "Bash(*install-archify*)"
+      "Bash(*install-archify*)",
+      "Bash(*install-spec-kit*)"
     ]
   }
 }

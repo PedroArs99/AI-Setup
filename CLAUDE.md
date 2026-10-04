@@ -28,4 +28,5 @@ For a separate plugin:
 
 - `plugins/starter-kit/scripts/install-codebase-memory-mcp.sh` installs an npm package globally and changes the user's Claude Code MCP config. Run it only after the user explicitly allows it in the current conversation. `.claude/settings.json` has an `ask` rule so every run needs approval.
 - `plugins/starter-kit/scripts/install-archify.sh` installs the Archify skill into `~/.claude/skills/` with the npm `skills` CLI (via npx). The same rule applies: run it only after the user explicitly allows it in the current conversation. It is also covered by an `ask` rule.
-- Install scripts install only through Node tooling (npm / npx packages). Never clone, download or build tools from source.
+- `plugins/starter-kit/scripts/install-spec-kit.sh` installs the GitHub Spec Kit CLI (`specify-cli`) from PyPI with `uv tool install`. The same rule applies: run it only after the user explicitly allows it in the current conversation. It is also covered by an `ask` rule.
+- Install scripts install only through published packages: npm / npx for Node tools, or `uv tool install` from PyPI for Python tools. Never clone, download or build tools from source.

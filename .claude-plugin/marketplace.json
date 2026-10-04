@@ -13,7 +13,7 @@
     {
       "name": "starter-kit",
       "source": "./plugins/starter-kit",
-      "description": "Baseline setup installed in every project so Claude behaves consistently: shared agents (code-explorer, archify-documenter), skills and commands.",
+      "description": "Baseline setup installed in every project so Claude behaves consistently: shared agents (code-explorer, archify-documenter), GitHub Spec Kit setup, skills and commands.",
       "version": "0.2.0",
       "category": "productivity",
       "keywords": [
@@ -22,7 +22,9 @@
         "code-explorer",
         "codebase-memory-mcp",
         "archify",
-        "documentation"
+        "documentation",
+        "spec-kit",
+        "spec-driven-development"
       ]
     }
   ]
