@@ -13,8 +13,8 @@
     {
       "name": "starter-kit",
       "source": "./plugins/starter-kit",
-      "description": "Baseline setup installed in every project so Claude behaves consistently: shared agents (code-explorer, archify-documenter), GitHub Spec Kit setup, Impeccable design skill installer, skills and commands.",
-      "version": "0.3.0",
+      "description": "Baseline setup installed in every project so Claude behaves consistently: shared agents (code-explorer, archify-documenter), GitHub Spec Kit setup, the Impeccable design plugin, skills and commands.",
+      "version": "0.4.0",
       "category": "productivity",
       "keywords": [
         "baseline",
@@ -27,6 +27,25 @@
         "spec-driven-development",
         "impeccable",
         "frontend-design"
+      ]
+    },
+    {
+      "name": "impeccable",
+      "source": {
+        "source": "git-subdir",
+        "url": "pbakaus/impeccable",
+        "path": "plugin",
+        "ref": "skill-v4.5.0",
+        "sha": "508d7e8955de3b3caf2d8676e85206723d41a887"
+      },
+      "description": "Impeccable by Paul Bakaus (Apache-2.0): frontend design skill, commands and anti-pattern detection. Re-listed here, pinned to its 4.5.0 release, so starter-kit can depend on it.",
+      "homepage": "https://impeccable.style",
+      "category": "design",
+      "keywords": [
+        "design",
+        "frontend",
+        "ui",
+        "ux"
       ]
     }
   ]

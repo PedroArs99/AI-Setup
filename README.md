@@ -41,4 +41,4 @@ the same everywhere. Shared agents, skills and commands go there. For a separate
 4. Validate: `claude plugin validate .`
 5. Refresh locally: `/plugin marketplace update pedro-ai-setup`
 
-Bump `version` in both `plugin.json` and `marketplace.json` when releasing changes.
+Bump `version` in both `plugin.json` and `marketplace.json` when releasing changes, and add the release to the plugin's `CHANGELOG.md`.
